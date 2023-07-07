@@ -11885,17 +11885,17 @@ spawn(function()
     
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=13394507294";
-      Title = "MTriet Hub", 
-      Text = "Welcome To Script!!"
+      Title = "Lunar Hub", 
+      Text = "Welcome To Lunar Script!!"
   })
 
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=13394507294";
-      Title = "MTriet Hub", 
-      Text = "Made by T..#9692"
+      Title = "Lunar Hub", 
+      Text = "Made by KyoZ#9999"
   })
   
-  require(game:GetService("ReplicatedStorage").Notification).new("Script By T..#9692 "):Display();
+  require(game:GetService("ReplicatedStorage").Notification).new("Script By KyoZ#9999 "):Display();
   wait()
   setthreadcontext(5)
 
